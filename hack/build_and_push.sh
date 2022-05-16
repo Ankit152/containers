@@ -1,8 +1,8 @@
 #!/bin/bash
 
-set -e
+set -euo pipefail
 
-PUSH=false
+PUSH=${PUSH:-false}
 
 for container_dir in $(find ${PWD} -type d); do
     # ignore non-compliant container_dir
