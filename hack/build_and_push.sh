@@ -5,8 +5,6 @@ set -e
 PUSH=false
 
 for container_dir in $(find ${PWD} -type d); do
-    container_name=$(basename ${container_dir})
-
     # ignore non-compliant container_dir
     if [ ! -f "${container_dir}/commands.sh" ]; then
         continue
