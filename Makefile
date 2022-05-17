@@ -4,6 +4,7 @@ SHELL := /bin/bash
 
 TARGETS := build deploy new help
 .PHONY: $(TARGETS)
+.DEFAULT_GOAL := help
 
 build: ## Build all containers.
 	@PWD=$(PWD) PUSH=false ./hack/build_and_push.sh
