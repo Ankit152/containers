@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/python-39
+FROM registry.access.redhat.com/ubi9/python-39
 
 RUN pip install managedtenants-cli==1.27.0
 
