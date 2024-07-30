@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export OPM_VERSION="v1.24.0"
+export OPM_VERSION="v1.45.0"
 export BASE_IMAGE="quay.io/app-sre/ubi8-ubi:8.9"
 export REPO="quay.io/mtsre"
 export IMAGE="opm-ubi"
