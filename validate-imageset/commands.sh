@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PY_MTCLI_VERSION="1.27.0"
+export PY_MTCLI_VERSION="1.50.0"
 export REPO="quay.io/mtsre"
 export IMAGE="validate-imageset"
 
